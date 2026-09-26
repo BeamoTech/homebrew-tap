@@ -26,12 +26,12 @@ bflash --help
 
 ## AgentSSH
 
-Install [AgentSSH](https://agentssh-beamo-20260920.pages.dev), the independent agent SSH API and MCP client:
+AgentSSH is a [local development archive](https://agentssh-beamo-20260920.pages.dev); its hosted service was retired. The retained CLI package is available for local/archive use:
 
 ```sh
 brew install BeamoINT/tap/agentssh
 agentssh --help
 ```
 
-On Windows, add this repository as a Scoop bucket and run `scoop install agentssh`.
+These archives do not provide access to a live AgentSSH service. Follow the AgentSSH repository's local-development instructions.
 The [AgentSSH release](https://github.com/BeamoINT/homebrew-tap/releases/tag/agentssh-v0.1.1) also includes standalone TypeScript and Python SDK packages, Terraform provider binaries, and the connector Helm chart. SHA256SUMS covers every downloadable archive.
