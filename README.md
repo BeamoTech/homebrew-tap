@@ -1,6 +1,6 @@
 # BeamoINT Homebrew tap
 
-Install [Claudex](https://github.com/BeamoINT/Claudex) with:
+Install [Claudex](https://github.com/BeamoTech/Claudex) with:
 
 ```sh
 brew install BeamoINT/tap/claudex
