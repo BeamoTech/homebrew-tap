@@ -11,6 +11,10 @@ Claudex's automatic first-run setup installs Codex and Claude Code when they
 are missing. The formula installs the Node.js and jq runtime dependencies used
 by that setup.
 
+Maintainers: after updating the formula, run the manual
+[Claudex Homebrew verification](.github/workflows/verify-claudex.yml) on `main`.
+It installs the published package, runs its test, and audits the formula on macOS.
+
 ## Beamo Flasher CLI
 
 Install [Beamo Flasher](https://beamo.tech/flasher-download) with:
