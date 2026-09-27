@@ -10,7 +10,7 @@ class Claudex < Formula
 
   def install
     libexec.install Dir["*"]
-    bin.write_exec_script libexec/"bin/claudex-package.mjs"
+    bin.install_symlink libexec/"bin/claudex-package.mjs" => "claudex"
   end
 
   test do
